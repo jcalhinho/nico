@@ -1,0 +1,117 @@
+/* Colors variables - couleur primaire, secondaire, tertiaire... */
+/* Couleurs relatives aux bordures */
+/* Couleurs relatives aux backgrounds */
+/* variables : tailles */
+/* variables */
+/* variables : breakpoint - template : Material UI */
+/* Style valable pour toute l'app */
+
+@font-face {
+  font-family: "AauxPro-Bold";
+  src: local("AauxPro-Bold"),
+    url("../public/AauxPro-Bold.ttf") format("truetype");
+}
+body {
+  font-family: AauxPro-Bold;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: AauxPro-Bold;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.top-right {
+  transform-origin: top right;
+  right: 0;
+  top: 20px;
+  transform: rotate(-90deg) translateY(-100%);
+  z-index: 11;
+  position: fixed;
+}
+
+.top-left {
+  transform-origin: top left;
+  left: 0;
+  top: 20px;
+  display: flex;
+  z-index: 11;
+  position: fixed;
+
+  transform: rotate(-90deg) translateX(-100%);
+}
+.central {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(0, 0, 0);
+  margin: auto;
+}
+.central-pix {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+
+  background: rgb(0, 0, 0);
+  margin: auto;
+}
+.pix {
+  width: 70vw;
+  height: 30vh;
+  background: rgb(44, 46, 153);
+  margin: 0 auto 20px 0;
+}
+.divider {
+  border: solid 1px solid;
+  width: 70vw;
+  height: 30vh;
+  background: rgb(44, 46, 153);
+  margin: 0 auto 20px 0;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+
+  width: 70vw;
+
+  background: rgb(0, 0, 0);
+  margin: 0 auto 20px 0;
+}
+.text-left {
+  width: 35vw;
+
+  background: rgb(0, 0, 0);
+  margin: 0 50px 20px 0;
+}
+.text-right {
+  width: 65vw;
+
+  background: rgb(0, 0, 0);
+  margin: 0 auto 20px 0;
+}
+.text-content {
+  background: rgb(0, 0, 0);
+  margin: 0 auto 20px 0;
+}
+.top-left-contact {
+  color: white;
+  font-size: 25px;
+  font-family: AauxPro-Bold;
+}
+Divider {
+  border: solid 1px white;
+}
+.top-left-nico {
+  color: grey;
+  font-size: 25px;
+  font-family: AauxPro-Bold;
+}
+.top-left-travaux {
+  color: rgb(255, 123, 0);
+  font-size: 25px;
+  font-family: AauxPro-Bold;
+}
